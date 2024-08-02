@@ -65,7 +65,7 @@ public class ObjectWalker {
         System.out.println(hasValueInObject); // true
     }
 
-    private static boolean hasValueInObject(Object startingObject, Set<?> soughtValues, Class<?> soughtClass, String soughtFieldOfSoughtClass) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException {
+    public static boolean hasValueInObject(Object startingObject, Set<?> soughtValues, Class<?> soughtClass, String soughtFieldOfSoughtClass) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException {
         
         Set<Object> foundValues = new HashSet<>();
         
