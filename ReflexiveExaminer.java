@@ -1,4 +1,4 @@
-package uci.example;
+package walker;
 
 import java.util.Collections;
 import java.util.HashSet;
