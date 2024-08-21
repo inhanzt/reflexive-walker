@@ -1,4 +1,4 @@
-package uci.example;
+package walker;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
